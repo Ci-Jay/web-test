@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jupiter</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!--css样式-->
+    <link rel="stylesheet" href="css/style_planet.css">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!--导入外部js-->
+    <script src="/js/showTime.js"/>
+    <script>
+        window.onload=fun(show_time)
+    </script>
+</head>
+<body>
+<div class="mars-header">
+    <h1>Jupiter</h1>
+</div>
+
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="Mine.html">ZJay</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="Home.html">主页</a></li>
+                <li><a href="#chinese-introduction">中文介绍</a></li>
+                <li><a href="About.html">About us</a></li>
+            </ul>
+            <!--右边栏时间显示-->
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="" id="show_time"></a></li>
+            </ul>
+        </div>
+    </div>
+
+
+</nav>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4">
+            <h2>Jupiter</h2>
+            <h5>surface</h5>
+            <div class="fakeimg">
+                <img src="/img/Jupiter.png" alt="Jupiter" width="320" height="320">
+            </div>
+            <!--链接管理-->
+            <h3>链接</h3>
+            <p>其他星球</p>
+            <ul class="nav nav-pills nav-stacked">
+                <li class="active"><a href="Mars.html">Mars</a></li>
+                <li><a href="Neptune.html">Neptune</a></li>
+                <li><a href="Venus.html">Venus</a></li>
+            </ul>
+            <hr class="hidden-sm hidden-md hidden-lg">
+        </div>
+        <div class="col-sm-8">
+            <h2 id="table-introduction">表格简介</h2>
+            <br>
+            <!--表格-->
+            <table>
+                <tr>
+                    <th class="table_item 1">中文名</th>
+                    <td class="table_item 1">木星</td>
+                    <th class="table_item 1">轨道倾角</th>
+                    <td class="table_item 1">1.303 度</td>
+                </tr>
+                <tr>
+                    <th class="table_item">外文名</th>
+                    <td class="table_item">Jupiter</td>
+                    <th class="table_item">升交点经度</th>
+                    <td class="table_item">100.464 度</td>
+                </tr>
+                <tr>
+                    <th class="table_item">别名</th>
+                    <td class="table_item">岁星</td>
+                    <th class="table_item">远日点</th>
+                    <td class="table_item">5.4588 天文单位</td>
+                </tr>
+                <tr>
+                    <th class="table_item">分类</th>
+                    <td class="table_item">
+                        <a href="https://baike.baidu.com/item/%E8%A1%8C%E6%98%9F/15991">行星</a>，
+                        <a href="https://baike.baidu.com/item/%E6%B0%94%E6%80%81%E5%B7%A8%E8%A1%8C%E6%98%9F/4111783?fromtitle=%E7%B1%BB%E6%9C%A8%E8%A1%8C%E6%98%9F&fromid=6894490">类木行星</a>
+                    </td>
+                    <th class="table_item">近日点</th>
+                    <td class="table_item">4.9501 天文单位</td>
+                </tr>
+                <tr>
+                    <th class="table_item">质量</th>
+                    <td class="table_item">1.8982✕1027kg</td>
+                    <th class="table_item">平均公转速度</th>
+                    <td class="table_item">47051 km/h</td>
+                </tr>
+                <tr>
+                    <th class="table_item">平均密度</th>
+                    <td class="table_item">1.326 g/cm³</td>
+                    <th class="table_item">会合周期</th>
+                    <td class="table_item">398.88 天</td>
+                </tr>
+            </table>
+
+            <br><br><br>
+
+            <!--中文简介-->
+            <h2 id="chinese-introduction">中文介绍</h2>
+            <p>木星（Jupiter）是距离太阳第五近的行星，也是太阳系中体积最大的行星，截至2019年已知有79颗卫星。</p>
+            <p>古人早已认识这颗行星 ，罗马人以主神朱庇特命名这颗行星。古代中国则称木星为岁星，取其绕行天球一周约为12年，与地支相同之故。到西汉时期，《史记‧天官书》作者司马迁从实际观测发现岁星呈青色，与“五行”学说联系在一起，正式把它命名为“木星”。</p>
+            <p>木星是颗巨行星，质量是太阳的千分之一，但却是太阳系其他行星质量总和的2.5倍。木星的主要成分是氢，但只占十分之一分子数量的氦，却占了总质量的四分之一；它可能有岩石核心和重元素，但没有可以明确界定的固体表面。由于快速地自转，木星的外观呈现扁球体。
+                大气层依纬度成不同的区与带，在彼此的交界处有湍流和风暴作用着。最显著的例子就是大红斑，这是17世纪第一次被望远镜见到后就未曾停歇过的巨大风暴。环绕着木星的还有微弱的行星环和强大的磁层，包括4颗1610年发现的伽利略卫星，至2019年12月已经发现79颗卫星。木卫三是其中最大的一颗，其直径大于行星中的水星。</p>
+            <p>早期飞掠木星的探测器有先驱者号和旅行者号各2艘，后来环绕木星探测的伽利略号、朱诺号以及借用木星引力加速飞往冥王星的新视野号。未来仍将有不少探测木星系统的太空任务。</p>
+            <br><br><br>
+
+
+        </div>
+    </div>
+</div>
+
+<div class="jumbotron text-center" style="margin-bottom:0">
+    <p>转载自Nasa Science</p>
+</div>
+</body>
+</html>

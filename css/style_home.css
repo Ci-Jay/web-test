@@ -1,0 +1,22 @@
+.nav.navbar-nav li a:hover{
+    transform: scale(1.2,1.2);
+}
+
+/*时间显示*/
+#show_time{
+    color: white;
+}
+
+
+/*网格布局*/
+.container{
+    position: relative;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    grid-template-rows: repeat(4,auto);
+    margin-top:20px;
+    grid-gap: 10px;
+}
+
+

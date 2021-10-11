@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mars</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!--css样式-->
+    <link rel="stylesheet" href="css/style_planet.css">
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <!--导入外部js-->
+    <script src="/js/showTime.js"/>
+    <script>
+        window.onload=fun(show_time)
+    </script>
+</head>
+<body>
+    <div class="mars-header">
+        <h1>Mars</h1>
+    </div>
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="Mine.html">ZJay</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="Home.html">主页</a></li>
+                    <li><a href="#chinese-introduction">中文介绍</a></li>
+                    <li><a href="About.html">About us</a></li>
+                </ul>
+                <!--右边栏时间显示-->
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="" id="show_time"></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <h2>Mars</h2>
+                <h5>surface</h5>
+                <div class="fakeimg"><img src="/img/Mars.png" alt="mars"></div>
+                <h3>链接</h3>
+                <p>其他星球</p>
+                <ul class="nav nav-pills nav-stacked">
+                    <li class="active"><a href="Jupiter.html">Jupiter</a></li>
+                    <li><a href="Neptune.html">Neptune</a></li>
+                    <li><a href="Venus.html">Venus</a></li>
+                </ul>
+                <hr class="hidden-sm hidden-md hidden-lg">
+            </div>
+            <div class="col-sm-8">
+                <h2>Pop Cultrue</h2>
+                <br>
+                <p>In the late 1800s when people first observed the canal-like features on Mars' surface, many speculated
+                    that an intelligent alien species resided there. This led to numerous stories about Martians, some of whom
+                    invade Earth, like in the 1938 radio drama, "The War of the Worlds."</p>
+                <p>Venus has a thick, toxic atmosphere filled with carbon dioxide and it’s perpetually shrouded in thick,
+                    yellowish clouds of sulfuric acid that trap heat, causing a runaway greenhouse effect.
+                    It’s the hottest planet in our solar system, even though Mercury is closer to the Sun.
+                    Surface temperatures on Venus are about 900 degrees Fahrenheit (475 degrees Celsius) – hot enough to melt lead.
+                    The surface is a rusty color and it’s peppered with intensely crunched mountains and thousands of large volcanoes.
+                    Scientists think it’s possible some volcanoes are still active.</p>
+                <p> Venus has crushing air pressure at its surface – more than 90 times
+                    that of Earth – similar to the pressure you'd encounter a mile below the ocean on Earth.</p>
+                <br>
+                <h2>Kid-Friendly Venus</h2>
+                <br>
+                <p>Venus is the second planet from the Sun and Earth’s closest planetary neighbor. Even though Mercury is closer to the Sun,
+                    Venus is the hottest planet in our solar system. Its thick atmosphere is full of the greenhouse gas carbon dioxide,
+                    and it has clouds of sulfuric acid.
+                    The atmosphere traps heat, making it feel like a furnace on the surface. It’s so hot on Venus, the metal lead would melt.</p>
+                <p>Venus is sometimes called Earth’s twin because it’s similar in size and structure,
+                    but the planets are very different in other ways. In addition to being extremely hot,
+                    Venus is unusual because it spins in the opposite direction of Earth and most other planets.
+                    It also has a very slow rotation making its day longer than its year.</p>
+                <br>
+                <hr>
+                <br>
+                <h2 id="chinese-introduction">中文介绍</h2>
+                <p>火星（英语：Mars；拉丁语：Martis；天文符号：♂），是离太阳第四近的行星，也是太阳系中仅次于水星的第二小的行星，为太阳系里四颗类地行星之一。</p>
+                <p>欧洲古称火星为“玛尔斯”，古罗马神话中的“战神”，也被称为“红色星球”。古汉语中则因为它荧荧如火，位置、亮度时常变动让人无法捉摸而称之为荧惑。</p>
+                <p>其橘红色外表是因为地表被赤铁矿（氧化铁）覆盖，火星的直径约为地球的一半，自转轴倾角、自转周期则与地球相近，但公转周期是地球的两倍。火星亮度最高可达-2.9等，但在大部分时间里比木星暗。 [1]</p>
+                <p>火星大气以二氧化碳为主，既稀薄又寒冷，遍布撞击坑、峡谷、沙丘和砾石，没有稳定的液态水。南半球是古老、充满撞击坑的高地，北半球则是较年轻的低地平原。
+                    火星上有太阳系已知最大的山—奥林帕斯山，最大的峡谷—水手号峡谷。火星有两个天然卫星：火卫一和火卫二，形状不规则，可能是捕获的小行星。
+                    根据观测的证据，火星被观察到类似地下水涌出的现象，南极冰冠有部分退缩，雷达数据显示两极和中纬度地表下存在大量的水冰。</p>
+                <p>火星有美国宇航局和欧洲发射的四艘在轨环绕探测器，分别是奥德赛号、火星快车号、火星全球勘测者和MAVEN火星探测器，表面有多个美国的火星车，
+                    如好奇号、洞察号以及结束任务的火星探路者号、凤凰号、勇气号和机遇号等等。 [13]</p>
+                <p>2021年5月15日，科研团队根据“祝融号”火星车发回遥测信号确认，天问一号着陆巡视器成功着陆于预选着陆区，我国首次火星探测任务取得圆满成功。</p>
+                <br><br><br>
+            </div>
+        </div>
+    </div>
+
+    <div class="jumbotron text-center" style="margin-bottom:0">
+        <p>转载自Nasa Science</p>
+    </div>
+</body>
+</html>

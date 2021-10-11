@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--css样式-->
+    <link rel="stylesheet" href="/css/style_register.css">
+    <title>Register</title>
+</head>
+<body>
+    <div class="rg_layout">
+        <div class="rg_left">
+            <p>Welcome to ZJay's</p>
+            <p>USER REGISTER</p>
+        </div>
+
+        <div class="rg_center">
+            <div class="rg_form">
+                <!--定义表单 form-->
+                <form action="#" method="post">
+                    <table>
+                        <tr>
+                            <td class="td_left"><label for="username">Username</label></td>
+                            <td class="td_right"><input type="text" name="username" id="username" placeholder="Enter Username"></td>
+                        </tr>
+
+                        <tr>
+                            <td class="td_left"><label for="password">Password</label></td>
+                            <td class="td_right"><input type="password" name="password" id="password" placeholder="Enter Password"></td>
+                        </tr>
+
+                        <tr>
+                            <td class="td_left"><label for="email">Email</label></td>
+                            <td class="td_right"><input type="email" name="email" id="email" placeholder="Enter Email"></td>
+                        </tr>
+
+                        <tr>
+                            <td class="td_left"><label for="name">Name</label></td>
+                            <td class="td_right"><input type="text" name="name" id="name" placeholder="Enter Name"></td>
+                        </tr>
+
+                        <tr>
+                            <td class="td_left"><label for="tel">Tel</label></td>
+                            <td class="td_right"><input type="text" name="tel" id="tel" placeholder="Enter Tel"></td>
+                        </tr>
+
+                        <tr>
+                            <td class="td_left"><label>Sex</label></td>
+                            <td class="td_right">
+                                <input type="radio" name="gender" value="male"> male
+                                <input type="radio" name="gender" value="female"> female
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="td_left"><label for="birthday">Birthday</label></td>
+                            <td class="td_right"><input type="date" name="birthday" id="birthday" placeholder="Enter Birthday"></td>
+                        </tr>
+
+                        <tr>
+                            <td class="td_left"><label for="checkcode" >Verification</label></td>
+                            <td class="td_right"><input type="text" name="checkcode" id="checkcode" placeholder="Enter Verification Code">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" align="center"><input type="submit" id="btn_sub" value="Register" onclick="window.open('index.html')"></td>
+                        </tr>
+                    </table>
+
+                </form>
+
+
+            </div>
+
+        </div>
+
+        <div class="rg_right">
+            <p>Already have an account?<a href="index.html">Log in!</a></p>
+        </div>
+
+    </div>
+</body>
+</html>
