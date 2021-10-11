@@ -63,7 +63,7 @@ body{
 .service-box:hover .service-icon {
     background: #82ccdd;
     color: #ddd;
-    transform: rotate(405deg);
+    transform: scale(1.3,1.3) rotate(45deg);
 }
 .service-title {
     font-size: 18px;
