@@ -1,6 +1,6 @@
 /*顶部css*/
 .mars-header{
-    background: url("/img/245.jpg");
+    background: url("../img/245.jpg");
     width: 100%;
     height: 300px;
     text-align: center;
